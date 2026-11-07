@@ -1,0 +1,5 @@
+﻿Modelo,Melhor condição,F1 soft,Condições com a mesma letra (sem diferença significativa)
+Qwen2.5-7B,full,"0,785","two-phase NER, LoRA, QLoRA, QLoRA lr1e-4"
+Llama-3.1-8B,QLoRA lr1e-4,"0,789","two-phase NER lr2e-4, full, QLoRA, two-phase NER"
+Falcon3-7B,two-phase NER,"0,786","two-phase NER lr2e-4, QLoRA, LoRA, two-phase, QLoRA lr1e-4"
+Granite-3.3-8B,two-phase NER,"0,778","two-phase, full, QLoRA, two-phase NER lr2e-4"

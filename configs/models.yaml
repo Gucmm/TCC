@@ -1,0 +1,29 @@
+# Registro de SLMs locais (nenhum dado sai da máquina). Parâmetros em bilhões.
+# `gated: true` exige aceitar a licença no Hugging Face e HF_TOKEN (só para o download).
+# `ctx_tokens` é a janela usada para detectar estouro (context_overflow) — conferir no model card.
+slm:
+  # --- baseline já existente ---
+  qwen2.5-7b:
+    hf_id: Qwen/Qwen2.5-7B-Instruct
+    params_b: 7.6
+    ctx_tokens: 32768
+    license: Apache-2.0
+    gated: false
+  llama3.1-8b:
+    hf_id: meta-llama/Llama-3.1-8B-Instruct
+    params_b: 8.0
+    ctx_tokens: 131072
+    license: Llama 3.1 Community
+    gated: true
+  granite3.3-8b:
+    hf_id: ibm-granite/granite-3.3-8b-instruct
+    params_b: 8.2
+    ctx_tokens: 131072
+    license: Apache-2.0
+    gated: false
+  falcon3-7b:
+    hf_id: tiiuae/Falcon3-7B-Instruct
+    params_b: 7.0
+    ctx_tokens: 32768
+    license: Falcon-LLM License 2.0
+    gated: false

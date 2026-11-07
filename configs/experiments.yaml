@@ -1,0 +1,82 @@
+# Configuração ÚNICA dos experimentos executados.
+#
+# Escopo das 44 execuções avaliadas presentes em reports/ (02/11/2026).
+# Escopo efetivamente presente em reports/:
+#   - 4 modelos: qwen2.5-7b, llama3.1-8b, falcon3-7b, granite3.3-8b
+#   - topologia T1 apenas
+#   - zero-shot (k=0) e few-shot (k=1 e k=3)
+#   - métodos: qlora, lora, full, frozen, two_phase, two_phase_ner
+#   - controles de lr: qlora com lr 1e-4 e two_phase_ner com lr 2e-4 (nos 4 modelos)
+#
+# Não executado (portanto ausente deste plano): T2-T5, oracle (E2),
+# benchmark LeNER-Br (E5), corpus completo (E7), curva de aprendizado (E4i)
+# e múltiplas sementes.
+#
+# Caminhos são relativos à raiz do repositório. Ajuste `python`/`python_vllm`
+# para o interpretador do seu ambiente (ou ative o venv antes de rodar).
+#
+# Comandos:
+#   mpsp plan     --config configs/experiments.yaml --estimate
+#   mpsp schedule --config configs/experiments.yaml
+#   mpsp status   --config configs/experiments.yaml
+
+paths:
+  gt: data/labels/ground_truth.json
+  docs: "data/scrappings/treino+teste"
+  splits: splits.json
+  runs: runs
+  ckpts: ckpts
+  reports: reports
+
+n_docs: 95
+python: python
+python_vllm: python
+env:
+  HF_HOME: .cache/huggingface
+  PYTORCH_CUDA_ALLOC_CONF: expandable_segments:True
+  TOKENIZERS_PARALLELISM: "false"
+  OMP_NUM_THREADS: "8"
+
+gpu:
+  device: 0
+  total_gb: 46
+  max_parallel: 4
+  max_train: 1
+  settle_s: 30
+
+scheduling:
+  train_first: true
+  heavy_last: true          # `full` roda sozinho, por último
+
+inference:                  # T1; zero-shot e few-shot k=1,3
+  models: [qwen2.5-7b, llama3.1-8b, falcon3-7b, granite3.3-8b]
+  topologies: [T1]
+  shots: [0, 1, 3]
+  engine: hf
+  shards: 2
+  oracle: false
+  smoke: false
+
+benchmark:                  # E5 não executado
+  enabled: false
+
+training:
+  topologies: [T1]
+  folds: [0, 1, 2, 3, 4]
+  train_fracs: [1.0]
+  max_seq_len: 4096
+  engine: hf
+  cleanup_full_models: true   # frozen e full: apaga o modelo inteiro depois de avaliado (fica o train_info)
+  dry_run: true               # ensaio (dados/tokenizador/memória) antes de cada método
+  groups:
+    # E4a/E4b/E4d/E4e/E4f/E4g: métodos base nos 4 modelos
+    - models: [qwen2.5-7b, llama3.1-8b, falcon3-7b, granite3.3-8b]
+      methods: [qlora, lora, full, frozen, two_phase, two_phase_ner]
+    # Controle de lr: qlora com o lr dos bifásicos (nos 4 modelos)
+    - models: [qwen2.5-7b, llama3.1-8b, falcon3-7b, granite3.3-8b]
+      methods: [qlora]
+      lr: 1.0e-4
+    # Controle de lr: two_phase_ner com o lr do qlora na última fase (nos 4 modelos)
+    - models: [qwen2.5-7b, llama3.1-8b, falcon3-7b, granite3.3-8b]
+      methods: [two_phase_ner]
+      lr: 2.0e-4

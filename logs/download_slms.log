@@ -1,0 +1,65 @@
+=== granite3.3-8b ===
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 15 files:   7%|▋         | 1/15 [00:00<00:10,  1.30it/s]Fetching 15 files:  33%|███▎      | 5/15 [00:00<00:01,  6.89it/s]Fetching 15 files:  53%|█████▎    | 8/15 [00:01<00:00, 10.89it/s]Fetching 15 files:  73%|███████▎  | 11/15 [00:01<00:00, 12.48it/s]Fetching 15 files:  73%|███████▎  | 11/15 [00:19<00:00, 12.48it/s]Fetching 15 files:  80%|████████  | 12/15 [04:10<02:01, 40.36s/it]Fetching 15 files: 100%|██████████| 15/15 [04:10<00:00, 16.69s/it]
+ibm-granite/granite-3.3-8b-instruct → /store/GustavoMoraes/.cache/huggingface/hub/models--ibm-granite--granite-3.3-8b-instruct/snapshots/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b
+A partir daqui, use `run`/treino: rodam com a rede do Hugging Face bloqueada.
+=== falcon3-7b ===
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 12 files:   8%|▊         | 1/12 [00:00<00:03,  2.94it/s]Fetching 12 files:  25%|██▌       | 3/12 [00:00<00:01,  7.96it/s]Fetching 12 files:  42%|████▏     | 5/12 [00:00<00:00,  7.13it/s]Fetching 12 files:  67%|██████▋   | 8/12 [00:00<00:00,  9.15it/s]Fetching 12 files:  67%|██████▋   | 8/12 [00:19<00:00,  9.15it/s]Fetching 12 files:  75%|███████▌  | 9/12 [02:03<01:13, 24.63s/it]Fetching 12 files:  83%|████████▎ | 10/12 [04:30<01:43, 51.83s/it]Fetching 12 files: 100%|██████████| 12/12 [04:31<00:00, 22.58s/it]
+tiiuae/Falcon3-7B-Instruct → /store/GustavoMoraes/.cache/huggingface/hub/models--tiiuae--Falcon3-7B-Instruct/snapshots/1e57a0ecd176c7c139f289c60a74e57f887c3dfb
+A partir daqui, use `run`/treino: rodam com a rede do Hugging Face bloqueada.
+=== salamandra-7b ===
+Fetching 17 files:   0%|          | 0/17 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 17 files:   6%|▌         | 1/17 [00:00<00:06,  2.39it/s]Fetching 17 files:  29%|██▉       | 5/17 [00:00<00:01, 10.24it/s]Fetching 17 files:  47%|████▋     | 8/17 [00:00<00:01,  8.58it/s]Fetching 17 files:  59%|█████▉    | 10/17 [00:01<00:00,  7.02it/s]Fetching 17 files:  65%|██████▍   | 11/17 [00:03<00:02,  2.16it/s]Fetching 17 files:  76%|███████▋  | 13/17 [01:12<00:48, 12.11s/it]Fetching 17 files:  82%|████████▏ | 14/17 [03:52<02:03, 41.22s/it]Fetching 17 files: 100%|██████████| 17/17 [03:52<00:00, 22.39s/it]Fetching 17 files: 100%|██████████| 17/17 [03:52<00:00, 13.68s/it]
+BSC-LT/salamandra-7b-instruct → /store/GustavoMoraes/.cache/huggingface/hub/models--BSC-LT--salamandra-7b-instruct/snapshots/a3ed5452fafb3698a0423b1a18bfb5888f4e611b
+A partir daqui, use `run`/treino: rodam com a rede do Hugging Face bloqueada.
+=== eurollm-9b ===
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+httpx2.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/utter-project/EuroLLM-9B-Instruct/resolve/f7ae2bc3bcbb538c0b93fa6cfbf388d9898b1ace/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/store/GustavoMoraes/mpsp-extraction/mpsp/__main__.py", line 3, in <module>
+    main()
+  File "/store/GustavoMoraes/mpsp-extraction/mpsp/cli.py", line 243, in main
+    args.fn(args)
+  File "/store/GustavoMoraes/mpsp-extraction/mpsp/cli.py", line 43, in cmd_download
+    path = snapshot_download(repo_id=info["hf_id"], token=os.environ.get("HF_TOKEN") or None)
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 276, in _inner
+    return fn(*args, **kwargs)
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/_snapshot_download.py", line 541, in snapshot_download
+    hf_thread_map(
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/utils/tqdm.py", line 441, in hf_thread_map
+    results[future_to_index[future]] = future.result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/_snapshot_download.py", line 521, in _inner_hf_hub_download
+    hf_hub_download(  # type: ignore
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 276, in _inner
+    return fn(*args, **kwargs)
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1047, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1194, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/store/GustavoMoraes/venvs/mpsp/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1953, in _raise_on_head_call_error
+    raise head_call_error
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6adb048e-7ea441467692d34741930709;2bc103ed-e5dc-4ed1-9384-35f02309173b)
+
+Cannot access gated repo for url https://huggingface.co/utter-project/EuroLLM-9B-Instruct/resolve/f7ae2bc3bcbb538c0b93fa6cfbf388d9898b1ace/config.json.
+Access to model utter-project/EuroLLM-9B-Instruct is restricted. You must have access to it and be authenticated to access it. Please log in.
+FALHOU: eurollm-9b

@@ -1,0 +1,98 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:49,  6.80it/s]Loading weights:   1%|          | 2/339 [00:00<00:49,  6.85it/s]Loading weights:   2%|▏         | 6/339 [00:00<00:18, 18.06it/s]Loading weights:   8%|▊         | 28/339 [00:00<00:03, 80.34it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:03, 93.89it/s]Loading weights:  17%|█▋        | 58/339 [00:00<00:03, 81.39it/s]Loading weights:  22%|██▏       | 76/339 [00:00<00:02, 103.27it/s]Loading weights:  27%|██▋       | 90/339 [00:01<00:02, 108.09it/s]Loading weights:  33%|███▎      | 112/339 [00:01<00:01, 133.59it/s]Loading weights:  37%|███▋      | 127/339 [00:01<00:01, 132.32it/s]Loading weights:  44%|████▎     | 148/339 [00:01<00:01, 150.12it/s]Loading weights:  48%|████▊     | 164/339 [00:01<00:01, 145.34it/s]Loading weights:  54%|█████▍    | 184/339 [00:01<00:00, 157.13it/s]Loading weights:  59%|█████▉    | 201/339 [00:01<00:00, 153.24it/s]Loading weights:  65%|██████▍   | 220/339 [00:01<00:00, 157.36it/s]Loading weights:  70%|██████▉   | 236/339 [00:02<00:00, 149.11it/s]Loading weights:  74%|███████▍  | 252/339 [00:02<00:00, 119.39it/s]Loading weights:  79%|███████▉  | 268/339 [00:02<00:00, 127.56it/s]Loading weights:  83%|████████▎ | 282/339 [00:02<00:00, 125.59it/s]Loading weights:  90%|████████▉ | 304/339 [00:02<00:00, 144.30it/s]Loading weights:  94%|█████████▍| 320/339 [00:02<00:00, 141.98it/s]Loading weights: 100%|██████████| 339/339 [00:02<00:00, 123.45it/s]
+[fold 0] 130155000238920156 ok=False 37.0s
+[fold 0] 130155000400820128 ok=False 41.8s
+[fold 0] 130208000067520143 ok=True 22.7s
+[fold 0] 130216000141120129 ok=True 25.3s
+[fold 0] 130255000002620167 ok=False 36.9s
+[fold 0] 130309000088020125 ok=True 19.5s
+[fold 0] 130327000023620116 ok=True 27.4s
+[fold 0] 130388000020220144 ok=True 45.7s
+[fold 0] 130543000028020121 ok=False 75.2s
+[fold 0] 130543000116320127 ok=True 25.0s
+[fold 0] 130544000031720219 ok=False 45.5s
+[fold 0] 130544000053320125 ok=True 19.9s
+[fold 0] 130544000122220120 ok=False 31.2s
+[fold 0] 130545000039520166 ok=True 21.9s
+[fold 0] 130545000049220179 ok=True 32.1s
+[fold 0] 130555000296220180 ok=False 30.1s
+[fold 0] 130711000044320120 ok=False 37.4s
+[fold 0] 130713001019220122 ok=True 18.9s
+[fold 0] 130719000461120141 ok=False 31.5s
+[fold 1] 130155001118220173 ok=False 33.1s
+[fold 1] 130199000092520204 ok=True 17.4s
+[fold 1] 130234000062320171 ok=True 23.3s
+[fold 1] 130234000089820205 ok=True 26.3s
+[fold 1] 130278000067920157 ok=False 50.9s
+[fold 1] 130296000032420169 ok=True 16.1s
+[fold 1] 130309000071920173 ok=True 22.4s
+[fold 1] 130311000012220230 ok=True 28.6s
+[fold 1] 130423000017620123 ok=False 54.9s
+[fold 1] 130468000010020121 ok=False 34.2s
+[fold 1] 130471000007320133 ok=False 14.0s
+[fold 1] 130474000216320206 ok=False 38.4s
+[fold 1] 130543000006620125 ok=True 33.1s
+[fold 1] 130543000009820168 ok=True 15.4s
+[fold 1] 130544000088920133 ok=True 19.9s
+[fold 1] 130545000004620192 ok=True 29.1s
+[fold 1] 130545000024020159 ok=True 13.0s
+[fold 1] 130546000032220161 ok=False 25.8s
+[fold 1] 130722000266420205 ok=True 14.5s
+[fold 2] 130212000171220131 ok=True 15.2s
+[fold 2] 130227000010420170 ok=False 67.2s
+[fold 2] 130244000006920139 ok=True 22.7s
+[fold 2] 130248000033520210 ok=True 48.3s
+[fold 2] 130300000117720210 ok=True 18.2s
+[fold 2] 130325000062920120 ok=False 26.9s
+[fold 2] 130450000199620178 ok=True 22.5s
+[fold 2] 130537000026620161 ok=True 26.5s
+[fold 2] 130543000020520206 ok=False 52.0s
+[fold 2] 130544000080820121 ok=True 26.1s
+[fold 2] 130580000237120143 ok=True 16.5s
+[fold 2] 130580000345720131 ok=True 25.9s
+[fold 2] 130634000120320215 ok=True 31.2s
+[fold 2] 130636000041020122 ok=True 20.9s
+[fold 2] 130677000078720112 ok=True 40.4s
+[fold 2] 130678000199720148 ok=True 10.4s
+[fold 2] 130710000194320167 ok=False 60.6s
+[fold 2] 130713000509020125 ok=False 41.8s
+[fold 2] 130715000001520227 ok=True 15.5s
+[fold 3] 130155001293720162 ok=False 23.7s
+[fold 3] 130205000228120123 ok=False 47.0s
+[fold 3] 130247000166120211 ok=True 28.5s
+[fold 3] 130265000088620162 ok=True 15.0s
+[fold 3] 130274000073820232 ok=False 38.4s
+[fold 3] 130276000199320135 ok=True 17.9s
+[fold 3] 130290000005020114 ok=True 25.8s
+[fold 3] 130321000067120186 ok=True 18.5s
+[fold 3] 130324000162120135 ok=True 28.3s
+[fold 3] 130341000475420178 ok=True 25.4s
+[fold 3] 130385000095220173 ok=False 30.8s
+[fold 3] 130410000025420177 ok=True 35.4s
+[fold 3] 130417000118220181 ok=False 39.1s
+[fold 3] 130452000207920141 ok=True 19.6s
+[fold 3] 130544000066020147 ok=True 34.6s
+[fold 3] 130545000001920152 ok=True 37.6s
+[fold 3] 130545000009620158 ok=True 23.3s
+[fold 3] 130711000173120145 ok=True 20.1s
+[fold 3] 130719000187620158 ok=True 16.2s
+[fold 4] 130005000026020211 ok=True 23.0s
+[fold 4] 130155000981820182 ok=True 11.0s
+[fold 4] 130194000385920152 ok=False 64.2s
+[fold 4] 130239000004720132 ok=True 27.2s
+[fold 4] 130269000054620133 ok=False 48.6s
+[fold 4] 130322000144220231 ok=True 36.5s
+[fold 4] 130326000004820178 ok=True 35.2s
+[fold 4] 130378000146220176 ok=False 27.7s
+[fold 4] 130387000005320139 ok=False 26.3s
+[fold 4] 130447000036320123 ok=True 18.8s
+[fold 4] 130537000040320170 ok=True 26.5s
+[fold 4] 130537000148620137 ok=False 64.2s
+[fold 4] 130543000017720156 ok=False 46.6s
+[fold 4] 130543000036420147 ok=True 20.2s
+[fold 4] 130544000016920139 ok=True 17.3s
+[fold 4] 130546000008720225 ok=True 24.7s
+[fold 4] 130555000026420179 ok=True 20.7s
+[fold 4] 130678000340020147 ok=False 67.8s
+[fold 4] 130711000661320129 ok=True 27.1s
+95 documentos processados → runs/qwen2.5-7b_T1_1shot.jsonl

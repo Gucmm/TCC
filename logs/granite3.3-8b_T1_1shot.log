@@ -1,0 +1,99 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/362 [00:00<?, ?it/s]Loading weights:   1%|          | 3/362 [00:00<00:15, 22.48it/s]Loading weights:   4%|▍         | 14/362 [00:00<00:05, 65.68it/s]Loading weights:   8%|▊         | 30/362 [00:00<00:03, 104.19it/s]Loading weights:  11%|█▏        | 41/362 [00:00<00:03, 105.00it/s]Loading weights:  16%|█▌        | 57/362 [00:00<00:02, 123.55it/s]Loading weights:  19%|█▉        | 70/362 [00:00<00:02, 123.11it/s]Loading weights:  23%|██▎       | 83/362 [00:00<00:02, 93.18it/s] Loading weights:  26%|██▌       | 94/362 [00:00<00:02, 97.15it/s]Loading weights:  31%|███       | 111/362 [00:01<00:02, 113.12it/s]Loading weights:  35%|███▍      | 126/362 [00:01<00:01, 122.17it/s]Loading weights:  39%|███▊      | 140/362 [00:01<00:01, 124.91it/s]Loading weights:  43%|████▎     | 157/362 [00:01<00:01, 136.23it/s]Loading weights:  48%|████▊     | 174/362 [00:01<00:01, 144.23it/s]Loading weights:  52%|█████▏    | 189/362 [00:01<00:01, 145.03it/s]Loading weights:  56%|█████▋    | 204/362 [00:01<00:01, 143.57it/s]Loading weights:  61%|██████    | 220/362 [00:01<00:00, 147.03it/s]Loading weights:  65%|██████▍   | 235/362 [00:02<00:01, 108.16it/s]Loading weights:  69%|██████▊   | 248/362 [00:02<00:01, 111.93it/s]Loading weights:  73%|███████▎  | 265/362 [00:02<00:00, 125.03it/s]Loading weights:  78%|███████▊  | 282/362 [00:02<00:00, 135.11it/s]Loading weights:  82%|████████▏ | 297/362 [00:02<00:00, 138.25it/s]Loading weights:  86%|████████▌ | 312/362 [00:02<00:00, 137.58it/s]Loading weights:  91%|█████████ | 328/362 [00:02<00:00, 142.26it/s]Loading weights:  95%|█████████▌| 345/362 [00:02<00:00, 147.64it/s]Loading weights: 100%|█████████▉| 361/362 [00:02<00:00, 148.89it/s]Loading weights: 100%|██████████| 362/362 [00:02<00:00, 126.15it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+[fold 0] 130155000238920156 ok=False 52.2s
+[fold 0] 130155000400820128 ok=True 39.8s
+[fold 0] 130208000067520143 ok=True 67.0s
+[fold 0] 130216000141120129 ok=True 41.9s
+[fold 0] 130255000002620167 ok=True 35.5s
+[fold 0] 130309000088020125 ok=False 65.2s
+[fold 0] 130327000023620116 ok=False 86.9s
+[fold 0] 130388000020220144 ok=True 33.4s
+[fold 0] 130543000028020121 ok=False 123.9s
+[fold 0] 130543000116320127 ok=True 42.3s
+[fold 0] 130544000031720219 ok=True 43.4s
+[fold 0] 130544000053320125 ok=True 27.8s
+[fold 0] 130544000122220120 ok=False 78.1s
+[fold 0] 130545000039520166 ok=True 34.7s
+[fold 0] 130545000049220179 ok=True 52.0s
+[fold 0] 130555000296220180 ok=False 46.3s
+[fold 0] 130711000044320120 ok=True 52.5s
+[fold 0] 130713001019220122 ok=True 34.6s
+[fold 0] 130719000461120141 ok=True 24.0s
+[fold 1] 130155001118220173 ok=False 64.5s
+[fold 1] 130199000092520204 ok=True 48.0s
+[fold 1] 130234000062320171 ok=True 38.8s
+[fold 1] 130234000089820205 ok=True 46.2s
+[fold 1] 130278000067920157 ok=False 91.8s
+[fold 1] 130296000032420169 ok=True 23.2s
+[fold 1] 130309000071920173 ok=True 49.5s
+[fold 1] 130311000012220230 ok=True 127.9s
+[fold 1] 130423000017620123 ok=True 55.1s
+[fold 1] 130468000010020121 ok=True 30.3s
+[fold 1] 130471000007320133 ok=True 30.6s
+[fold 1] 130474000216320206 ok=True 79.0s
+[fold 1] 130543000006620125 ok=True 101.3s
+[fold 1] 130543000009820168 ok=True 46.9s
+[fold 1] 130544000088920133 ok=True 52.2s
+[fold 1] 130545000004620192 ok=True 94.7s
+[fold 1] 130545000024020159 ok=True 19.2s
+[fold 1] 130546000032220161 ok=True 21.7s
+[fold 1] 130722000266420205 ok=False 48.1s
+[fold 2] 130212000171220131 ok=False 51.1s
+[fold 2] 130227000010420170 ok=True 30.6s
+[fold 2] 130244000006920139 ok=True 75.9s
+[fold 2] 130248000033520210 ok=True 44.6s
+[fold 2] 130300000117720210 ok=False 60.9s
+[fold 2] 130325000062920120 ok=False 53.8s
+[fold 2] 130450000199620178 ok=True 41.7s
+[fold 2] 130537000026620161 ok=True 65.9s
+[fold 2] 130543000020520206 ok=True 36.9s
+[fold 2] 130544000080820121 ok=True 90.6s
+[fold 2] 130580000237120143 ok=True 29.4s
+[fold 2] 130580000345720131 ok=False 79.7s
+[fold 2] 130634000120320215 ok=False 110.3s
+[fold 2] 130636000041020122 ok=True 37.3s
+[fold 2] 130677000078720112 ok=True 31.4s
+[fold 2] 130678000199720148 ok=False 40.0s
+[fold 2] 130710000194320167 ok=True 47.7s
+[fold 2] 130713000509020125 ok=False 66.3s
+[fold 2] 130715000001520227 ok=False 55.9s
+[fold 3] 130155001293720162 ok=True 41.4s
+[fold 3] 130205000228120123 ok=False 88.5s
+[fold 3] 130247000166120211 ok=True 53.3s
+[fold 3] 130265000088620162 ok=False 50.7s
+[fold 3] 130274000073820232 ok=False 68.4s
+[fold 3] 130276000199320135 ok=False 61.1s
+[fold 3] 130290000005020114 ok=True 52.1s
+[fold 3] 130321000067120186 ok=True 61.9s
+[fold 3] 130324000162120135 ok=True 40.9s
+[fold 3] 130341000475420178 ok=False 38.0s
+[fold 3] 130385000095220173 ok=True 55.8s
+[fold 3] 130410000025420177 ok=True 21.7s
+[fold 3] 130417000118220181 ok=True 34.3s
+[fold 3] 130452000207920141 ok=True 73.3s
+[fold 3] 130544000066020147 ok=True 60.7s
+[fold 3] 130545000001920152 ok=True 62.4s
+[fold 3] 130545000009620158 ok=True 34.3s
+[fold 3] 130711000173120145 ok=True 31.7s
+[fold 3] 130719000187620158 ok=False 50.7s
+[fold 4] 130005000026020211 ok=True 28.0s
+[fold 4] 130155000981820182 ok=True 16.4s
+[fold 4] 130194000385920152 ok=True 143.6s
+[fold 4] 130239000004720132 ok=False 77.1s
+[fold 4] 130269000054620133 ok=False 85.2s
+[fold 4] 130322000144220231 ok=True 68.6s
+[fold 4] 130326000004820178 ok=True 46.3s
+[fold 4] 130378000146220176 ok=True 18.7s
+[fold 4] 130387000005320139 ok=True 28.5s
+[fold 4] 130447000036320123 ok=True 39.8s
+[fold 4] 130537000040320170 ok=True 34.7s
+[fold 4] 130537000148620137 ok=True 108.8s
+[fold 4] 130543000017720156 ok=True 48.4s
+[fold 4] 130543000036420147 ok=True 62.1s
+[fold 4] 130544000016920139 ok=True 47.5s
+[fold 4] 130546000008720225 ok=True 45.7s
+[fold 4] 130555000026420179 ok=True 49.4s
+[fold 4] 130678000340020147 ok=True 170.4s
+[fold 4] 130711000661320129 ok=True 45.7s
+95 documentos processados → runs/granite3.3-8b_T1_1shot.jsonl
