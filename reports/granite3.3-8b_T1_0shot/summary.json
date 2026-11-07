@@ -1,0 +1,41 @@
+{
+ "n_docs": 95,
+ "failed_docs": 0,
+ "strict": {
+  "precision": 0.4994192799070848,
+  "recall": 0.25825825825825827,
+  "f1": 0.3404592240696754,
+  "support": 1665,
+  "macro_f1_fields": 0.2733395069121514,
+  "doc_f1_mean": 0.2083040701417611,
+  "doc_f1_ci95": [
+   0.15850124217511063,
+   0.2583160812736977
+  ]
+ },
+ "soft": {
+  "precision": 0.5586527293844367,
+  "recall": 0.28888888888888886,
+  "f1": 0.3808392715756136,
+  "support": 1665,
+  "macro_f1_fields": 0.32669964430644766,
+  "doc_f1_mean": 0.22937055160945996,
+  "doc_f1_ci95": [
+   0.1732807461311514,
+   0.28511592212718523
+  ]
+ },
+ "run": {
+  "docs": 95,
+  "ok_rate": 0.6,
+  "context_overflow_rate": 0.0,
+  "node_failure_rate": 0.4,
+  "calls_per_doc": 1.0,
+  "prompt_tokens": 5132.989473684211,
+  "completion_tokens": 1809.378947368421,
+  "seconds": 58.89613581042931,
+  "rule_violation_rate": 0.07368421052631578,
+  "rule_violations_per_doc": 0.07368421052631578,
+  "grounding_rate": 0.8793969849246231
+ }
+}
