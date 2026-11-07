@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Artefatos de execução (grandes / sensíveis)
+ckpts/
+runs/
+logs/lab/
+logs/*.log
+logs/*.logecho
+.cache/
+data/scrappings/treino+teste/*/*/texto_processo.txt
+
+# Relatórios contêm nomes e trechos reais (ver README > Privacidade)
+reports/*/rows.csv
+reports/*/by_field_*.csv
+reports/*/doc_scores_*.csv
+reports/*/role_confusion.csv

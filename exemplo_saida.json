@@ -1,0 +1,85 @@
+{
+  "resumo_processo": {
+    "classificacao_crime": "Homicídio",
+    "pessoas_envolvidas": {
+      "vitimas": ["Gustavo C. M. Moreira"],
+      "suspeitos_investigados": ["Victor Moreli"],
+      "testemunhas": ["Luis G. Nonato"]
+    }
+  },
+  "inquerito": {
+    "resultado": "Consumado",
+    "é_feminicidio": false,
+    "data_ocorrencia": "26/06/2026",
+    "hora_ocorrencia": "14:00",
+    "data_registro": null,
+    "delegacia_registro": "1º DP São Carlos",
+    "tipo_de_local": "Instituição de ensino",
+    "local_detalhado": "Laboratório de computação do ICMC — sala 3-001",
+    "municipio": "São Carlos",
+    "latitude": -22.0018,
+    "longitude": -47.8987,
+    "arma_utilizada": "VRAM — placa de vídeo RTX 4090 (24 GB)",
+    "bem_roubado": null,
+    "natureza_da_autoria": "Conhecida",
+    "pericia_realizada": true,
+    "prisao_em_flagrante": true,
+    "razao_arquivamento": "Promovo o arquivamento dos presentes autos, eis que a autoria é conhecida, porém o suspeito Victor Moreli alega legítima defesa de sua VRAM, não havendo elementos suficientes para sustentar a denúncia."
+  },
+  "vítimas": {
+    "vitimas": [
+      {
+        "nome": "Gustavo C. M. Moreira",
+        "sexo": "Masculino",
+        "cor": null,
+        "idade": null,
+        "profissao": "Estudante",
+        "escolaridade": null,
+        "nacionalidade": "Brasileira",
+        "antecedentes_criminais": null,
+        "é_policial": false,
+        "corporacao_policial": null,
+        "policial_em_servico": null,
+        "armada": false,
+        "arma_da_vítima": null,
+        "faleceu": true,
+        "causa_juridica_da_morte": "Homicídio por instrumento contundente (VRAM)",
+        "relacao_vitima_autor": "Colega de laboratório"
+      }
+    ]
+  },
+  "suspeitos": {
+    "Suspeitos": [
+      {
+        "nome": "Victor Moreli",
+        "sexo": "Masculino",
+        "cor": null,
+        "idade": null,
+        "profissao": "Estudante",
+        "escolaridade": null,
+        "nacionalidade": "Brasileira",
+        "antecedentes_criminais": "Responde a processo administrativo por uso indevido de recursos computacionais",
+        "é_policial": false,
+        "corporacao_policial": null,
+        "policial_em_servico": null
+      }
+    ]
+  },
+  "testemunhas": {
+    "testemunhas": [
+      {
+        "nome": "Luis G. Nonato",
+        "sexo": "Masculino",
+        "cor": null,
+        "idade": null,
+        "profissao": "Professor",
+        "escolaridade": null,
+        "nacionalidade": "Brasileira",
+        "antecedentes_criminais": null,
+        "é_policial": false,
+        "corporacao_policial": null,
+        "policial_em_servico": null
+      }
+    ]
+  }
+}
