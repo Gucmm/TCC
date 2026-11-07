@@ -1,0 +1,5 @@
+95 documentos em comum | métrica: F1/doc (soft)
+                                              comparação    diff      lo      hi      p  wilcoxon_p  p_holm
+qwen2.5-7b_T1_two_phase_ner − qwen2.5-7b_T1_qlora_lr1e-4  0.0184 -0.0057  0.0479 0.1512      0.2028  0.3024
+    qwen2.5-7b_T1_two_phase − qwen2.5-7b_T1_qlora_lr1e-4 -0.0794 -0.1358 -0.0268 0.0036      0.0046  0.0108
+         qwen2.5-7b_T1_full − qwen2.5-7b_T1_qlora_lr1e-4  0.0123 -0.0149  0.0416 0.3884      0.1316  0.3884
